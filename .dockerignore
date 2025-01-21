@@ -6,4 +6,13 @@ build/
 bin/
 lib/
 install/
+.devcontainer/Dockerfile
+.devcontainer/docker-compose*yml
+.github/
+.git/
+*.env
+aoc_scenario_template_ws/src/aoc_scenario_template
+node_modules
+logs
+tmp
 *~

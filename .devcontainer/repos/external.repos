@@ -1,0 +1,19 @@
+repositories:
+  hunter_robot:
+    type: git
+    url: https://github.com/LCAS/hunter_robot.git
+    version: main
+  hunter_platform:
+    type: git
+    url: https://github.com/LCAS/hunter_platform.git
+    version: main
+  livox_ros_driver2:
+      type: git
+      url: https://github.com/LCAS/livox_ros_driver2.git
+      version: v0.0.0
+      depth: 1
+  livox_laser_simulation_ros2:
+      type: git
+      url: https://github.com/LCAS/livox_laser_simulation_ros2
+      version: v0.0.0
+      depth: 1

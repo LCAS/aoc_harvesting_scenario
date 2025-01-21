@@ -1,9 +1,0 @@
-repositories:
-  dogtooth_robot:
-    type: git
-    url: https://github.com/LCAS/dogtooth_robot.git
-    version: main
-  dogtooth_platform:
-    type: git
-    url: https://github.com/LCAS/dogtooth_platform.git
-    version: main
