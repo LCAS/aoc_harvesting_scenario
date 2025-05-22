@@ -1,11 +1,11 @@
 repositories:
+  mobile_manipulator_platform:
+    type: git
+    url: https://github.com/LCAS/mobile_manipulator_platform
+    version: main
   hunter_robot:
     type: git
     url: https://github.com/LCAS/hunter_robot.git
-    version: main
-  hunter_platform:
-    type: git
-    url: https://github.com/LCAS/hunter_platform.git
     version: main
   livox_ros_driver2:
       type: git

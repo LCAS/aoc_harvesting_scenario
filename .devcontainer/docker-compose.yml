@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  aoc_scenario_template:
+  aoc_harvesting_scenario:
     labels:
       - deploy.user=${USER}
     image: lcas.lincoln.ac.uk/lcas/ros:jammy-humble-cuda12.2-opengl
@@ -30,7 +30,7 @@ services:
     volumes:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
-      - ../:/home/ros/aoc_scenario_template_ws/src/aoc_scenario_template:rw
+      - ../:/home/ros/aoc_harvesting_scenario_ws/src/aoc_harvesting_scenario:rw
       - /media:/media:rw
 
 networks:

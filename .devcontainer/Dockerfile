@@ -11,7 +11,7 @@ ENV ROS_DISTRO=humble
 ARG user_id=1000
 ENV user_id=${user_id}
 
-ARG COLCON_WS=/home/ros/aoc_scenario_template_ws
+ARG COLCON_WS=/home/ros/aoc_harvesting_scenario_ws
 ENV COLCON_WS=${COLCON_WS}
 
 # Install all required APT packages

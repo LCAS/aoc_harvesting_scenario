@@ -1,11 +1,12 @@
-# aoc_scenario_template
-A simple AOC-compatible scenario with basic functionality
+# AOC HARVESTING SCENARIO
+
+AOC harvesting scenario for mobile manipulators including interactable plants, part of the Agri-OpenCore (AOC) project
 
 To get started with this scenario, follow these steps:
 
 1. Clone the repository into your workspace:
     ```bash
-    git clone https://github.com/LCAS/aoc_scenario_template.git
+    git clone https://github.com/LCAS/aoc_harvesting_scenario.git
     ```
 
 2. Open the cloned repository with `vscode`. When prompted by `vscode`, choose to reopen the repository in a container. This will build the container, install all dependencies, and set up the workspace.

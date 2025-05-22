@@ -8,8 +8,8 @@
 	
 	// Specify the Docker Compose file(s) required to set up the dev container
 	"dockerComposeFile": ["docker-compose.yml"],
-	"service": "aoc_scenario_template",  // Define the main service to use in the container
-	"workspaceFolder": "/home/ros/aoc_scenario_template_ws/",  // Path to the workspace within the container
+	"service": "aoc_harvesting_scenario",  // Define the main service to use in the container
+	"workspaceFolder": "/home/ros/aoc_harvesting_scenario_ws/",  // Path to the workspace within the container
 
 	// Forward specific ports from the container to the host machine
 	"forwardPorts": [5801],  // Port for remote desktop access
@@ -23,7 +23,7 @@
 	// Run commands after the container is created for initial setup
 	// Here, the post-create command will build the workspace with `colcon build`.
 	// If any packages fail to build, the process will continue for faster setup.
-	"postCreateCommand": "echo 'Hello from aoc_scenario_template docker'",
+	"postCreateCommand": "echo 'Hello from aoc_harvesting_scenario docker'",
 
 	// Define environment variables to facilitate mounting local source code
 	"remoteEnv": {
