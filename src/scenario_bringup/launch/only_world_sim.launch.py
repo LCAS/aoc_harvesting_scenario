@@ -12,7 +12,7 @@ def generate_launch_description():
     
     # Define world file
     scenario_bring_up_dir = get_package_share_directory('scenario_bringup')
-    world_file = os.path.join(scenario_bring_up_dir, 'worlds', 'gazebo_riseholme_harvesting.world')
+    world_file = os.path.join(scenario_bring_up_dir, 'worlds', 'gazebo_riseholme_harvesting_01.world')
     world_path = LaunchConfiguration('world_path', default=world_file)
 
     # Gazebo Models
