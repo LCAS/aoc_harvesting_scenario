@@ -19,4 +19,4 @@ To get started with this scenario, follow these steps:
     ```bash
     ros2 launch scenario_bringup only_world_sim.launch.py
     ```
-![harvesting_gazebo_world](https://github.com/user-attachments/assets/ac050bfb-ba74-44d0-b930-a10679d70de4)
+![harvesting_gazebo_world](https://github.com/user-attachments/assets/928a1c9a-c802-4a4f-ac55-a50d805693e1)
