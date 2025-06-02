@@ -20,10 +20,10 @@ def generate_launch_description():
     
     ROBOT_MODEL = os.environ['ROBOT_MODEL']
     
-    scenario_bring_up_dir = get_package_share_directory('aoc_strawberry_scenario_bringup')
+    scenario_bring_up_dir = get_package_share_directory('scenario_bringup')
     launch_file_dir = os.path.join(scenario_bring_up_dir, 'launch')  
 
-    world_file = os.path.join(scenario_bring_up_dir, 'worlds', 'gazebo_world.world')
+    world_file = os.path.join(scenario_bring_up_dir, 'worlds', 'gazebo_riseholme_harvesting_01.world')
     # world_file = os.path.join(scenario_bring_up_dir, 'worlds', 'empty_world.world')
     # world_file = PathJoinSubstitution([FindPackageShare("dogtooth_gazebo"), "worlds", "terrain_1.world"],)
     
@@ -85,9 +85,6 @@ def generate_launch_description():
             default_value='true',
             description='Run Gazebo Sim GUI'),
         SetEnvironmentVariable(name='GAZEBO_MODEL_PATH', value=model_path),
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([launch_file_dir, '/monitor.launch.py']),
-            launch_arguments={'cfg_pth': health_monitor_params_file}.items(),),
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([robot_gazebo_dir, '/', robot_launch]),
             launch_arguments={
