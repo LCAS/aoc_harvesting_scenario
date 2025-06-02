@@ -26,8 +26,8 @@ To get started with this scenario, follow these steps:
     ``` 
 **Simulation world with strawberry plants**
 
-[StrawberryHarvestingWorld.webm](https://github.com/user-attachments/assets/238959a4-01b7-4c06-aaf1-92095951ec3f)
+[Strawberry Harvesting World v01](https://github.com/user-attachments/assets/238959a4-01b7-4c06-aaf1-92095951ec3f)
 
 **Simulation world with platform**
 
-[StrawberryHarvesting_with_Hunter.webm](https://github.com/user-attachments/assets/8790b2e0-4e16-4bf9-900a-ec0509c4b939)
+[Strawberry Harvesting World with Hunter Platform v01](https://github.com/user-attachments/assets/8790b2e0-4e16-4bf9-900a-ec0509c4b939)
