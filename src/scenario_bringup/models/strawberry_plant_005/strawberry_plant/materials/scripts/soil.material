@@ -1,0 +1,18 @@
+material soil/Image
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1.0
+          	diffuse 1.0 1.0 1.0 1.0
+          	specular 0.1 0.1 0.1 1.0 0.5
+
+			texture_unit
+			{
+				texture soil.jpg
+				scale 1 1
+			}
+		}
+	}
+}
