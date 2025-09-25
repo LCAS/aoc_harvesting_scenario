@@ -19,11 +19,10 @@ To get started with this scenario, follow these steps:
     ```
     or
 
-    To simulate Gazebo world only
-
     ```bash
-    ros2 launch scenario_bringup only_world_sim.launch.py
+    ros2 launch scenario_bringup platform_with_world_sim.launch.py use_base:=true use_arm:=true x_pose:=19.0 y_pose:=-24.15 yaw:=-83.07888
     ``` 
+    
 **Simulation world with strawberry plants**
 
 [Strawberry Harvesting World v01](https://github.com/user-attachments/assets/238959a4-01b7-4c06-aaf1-92095951ec3f)
