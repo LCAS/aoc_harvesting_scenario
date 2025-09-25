@@ -179,7 +179,7 @@ def generate_launch_description():
         launch_arguments={
             'use_sim_time': 'true',
             'debug': 'false',
-            'gui': 'false',
+            'gui': 'true',
             'paused': 'true',
             'world' : world_file
         }.items()
